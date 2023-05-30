@@ -39,6 +39,7 @@ def format_operation(data):
     """
     Преобразует данные в нужный формат
     """
+    formatted_list = []
     for i in data:
         date = datetime.strptime(i['date'], '%Y-%m-%dT%H:%M:%S.%f').strftime("%d.%m.%Y")
         description = i['description']
@@ -59,6 +60,10 @@ def format_operation(data):
             from_bill = f"{from_bill[:4]} {from_bill[4:6]}** **** {from_bill[-4:]}"
             from_info = " ".join(sender)
 
-        print((f"{date} - {description}\n"
-               f"{from_info} {from_bill} -> {to_info} {to_bill}\n"
-               f"{operations_amount}\n"))
+        formatted_list.append(f"""
+        {date} - {description}
+        {from_info} {from_bill} -> {to_info} {to_bill}
+        {operations_amount}""")
+
+
+    return formatted_list
