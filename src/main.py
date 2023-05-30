@@ -12,4 +12,8 @@ def main():
     return format_operation(last_operation)
 
 
-pprint(main())
+
+if __name__ == '__main__':
+    start = main()
+    for i in start:
+        print(i)

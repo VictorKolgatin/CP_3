@@ -61,9 +61,9 @@ def format_operation(data):
             from_info = " ".join(sender)
 
         formatted_list.append(f"""
-        {date} - {description}
-        {from_info} {from_bill} -> {to_info} {to_bill}
-        {operations_amount}""")
+{date} - {description}
+{from_info} {from_bill} -> {to_info} {to_bill}
+{operations_amount}""")
 
 
     return formatted_list
