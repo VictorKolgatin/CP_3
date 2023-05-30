@@ -1,0 +1,90 @@
+[
+  {
+    "id": 441945886,
+    "state": "EXECUTED",
+    "date": "2019-08-26T10:50:58.294041",
+    "operationAmount": {
+      "amount": "31957.58",
+      "currency": {
+        "name": "руб.",
+        "code": "RUB"
+      }
+    },
+    "description": "Перевод организации",
+    "from": "Maestro 1596837868705199",
+    "to": "Счет 64686473678894779589"
+  },
+{
+    "id": 509645757,
+    "state": "EXECUTED",
+    "date": "2019-10-30T01:49:52.939296",
+    "operationAmount": {
+      "amount": "23036.03",
+      "currency": {
+        "name": "руб.",
+        "code": "RUB"
+      }
+    },
+    "description": "Перевод с карты на счет",
+    "from": "Visa Gold 7756673469642839",
+    "to": "Счет 48943806953649539453"
+  },
+   {
+    "id": 547682597,
+    "state": "EXECUTED",
+    "date": "2018-12-29T21:45:18.495053",
+    "operationAmount": {
+      "amount": "66263.93",
+      "currency": {
+        "name": "руб.",
+        "code": "RUB"
+      }
+    },
+    "description": "Перевод организации",
+    "from": "Счет 77977573135347241529",
+    "to": "Счет 33062909508148771891"
+  },
+  {
+    "id": 811920303,
+    "state": "EXECUTED",
+    "date": "2019-06-14T19:37:49.044089",
+    "operationAmount": {
+      "amount": "63150.74",
+      "currency": {
+        "name": "USD",
+        "code": "USD"
+      }
+    },
+    "description": "Перевод со счета на счет",
+    "from": "Счет 73222753239048295679",
+    "to": "Счет 78544755774551298747"
+  },
+    {
+    "id": 811920303,
+    "state": "EXECUTED",
+    "date": "2019-06-14T19:37:49.044089",
+    "operationAmount": {
+      "amount": "63150.74",
+      "currency": {
+        "name": "USD",
+        "code": "USD"
+      }
+    },
+    "description": "Перевод со счета на счет",
+    "from": "Счет 73222753239048295679"
+  },
+    {
+    "id": 811920303,
+    "state": "EXECUTED",
+    "date": "2019-06-14T19:37:49.044089",
+    "operationAmount": {
+      "amount": "63150.74",
+      "currency": {
+        "name": "USD",
+        "code": "USD"
+      }
+    },
+    "description": "Перевод со счета на счет",
+    "to": "Счет 78544755774551298747"
+  }
+]
